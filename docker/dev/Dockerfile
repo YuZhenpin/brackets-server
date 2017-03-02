@@ -5,9 +5,9 @@ ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update && \
     apt-get -y install software-properties-common
-RUN add-apt-repository ppa:git-core/ppa && \
+RUN add-apt-repository -y ppa:git-core/ppa && \
     apt-get update && \
-    apt-get install -y git curl build-essential
+    apt-get install -y git curl build-essential python
 
 RUN curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash - && \
     apt-get install -y nodejs
@@ -20,7 +20,7 @@ WORKDIR ~
 RUN mkdir Projects && mkdir .brackets-srv
 
 WORKDIR /var
-RUN git clone https://github.com/rabchev/brackets-server.git
+RUN git clone https://github.com/YuZhenpin/brackets-server.git
 
 WORKDIR /var/brackets-server
 RUN git submodule update --init --recursive && \
