@@ -4,7 +4,7 @@ Docker Image for Brackets-Server Development
 How to build
 ------------
 
-    $ docker build -t brackets_server_dev
+    $ docker build -t brackets_server_dev .
     
 This will pull the last commit in master branch and build brackets-server.
 
