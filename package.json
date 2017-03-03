@@ -1,5 +1,5 @@
 {
-  "name": "brackets",
+  "name": "y-brackets-server",
   "description": "Brackets Server is a server for providing hosted version of the popular code editor Brackets.",
   "version": "0.5.8",
   "author": "Boyan Rabchev <boyan@rabchev.com>",
@@ -9,7 +9,7 @@
       "email": "boyan@rabchev.com"
     }
   ],
-  "repository": "https://github.com/rabchev/brackets-server.git",
+  "repository": "https://github.com/YuZhenpin/brackets-server.git",
   "main": "./lib/server",
   "preferGlobal": "true",
   "bin": {
@@ -75,7 +75,7 @@
   },
   "bugs": {
     "email": "boyan@rabchev.com",
-    "url": "https://github.com/rabchev/brackets-server/issues"
+    "url": "https://github.com/YuZhenpin/brackets-server/issues"
   },
   "license": "MIT",
   "engines": {
