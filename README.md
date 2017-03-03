@@ -1,5 +1,7 @@
 Brackets Server
 ===============
+!!IMPORTANT!! For a * reason, I removed the copy/cut function. 
+if you want to use hosted brackets, please npm install brackets instead.
 
 Brackets Server is a server for providing hosted version of the popular code editor [Brackets](http://brackets.io/). The code editor can be loaded directly in the web browser and it doesn’t require additional installations or browser extensions. Brackets works just like the desktop version, except that all projects and files reside on the server instead of the local file system.
 
@@ -12,7 +14,7 @@ Installation
 
 Install from npm:
 
-    $ npm install brackets -g
+    $ npm install y-brackets-server -g
 
 Usage Examples
 --------------
