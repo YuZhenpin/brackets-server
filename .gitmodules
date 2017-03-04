@@ -1,6 +1,6 @@
 [submodule "brackets-src"]
 	path = brackets-src
-	url = https://github.com/YuZhenpin/brackets.git
+	url = git@github.com:YuZhenpin/brackets.git 
 [submodule "embedded-ext/new-project"]
 	path = embedded-ext/new-project
 	url = https://github.com/JeffryBooher/brackets-newproject-extension.git
